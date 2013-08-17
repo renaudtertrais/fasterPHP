@@ -15,4 +15,4 @@ Getting started
 
 
 2. Link faster fasterPHP to your project :
-	require ('fasterPHP/fasterPHP.php');
+    require ('fasterPHP/fasterPHP.php');
