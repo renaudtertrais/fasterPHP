@@ -3,6 +3,8 @@ fasterPHP
 
 a tiny library PHP to manipulate databases, uploads and mail.
 
+[check the doc here](http://emaj.fr/projects/fasterPHP/doc/)
+
 Getting started
 ===============
 1. Edit 'config.php' and change the default constants for the default params of **Database** class (optional) :
