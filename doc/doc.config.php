@@ -22,7 +22,7 @@ $doc = array(
 	array(
 		'title' => 'classes',
 		'doc' 	=> array(
-			'../classes/Database.class.php',
+			'../classes/DataBase.class.php',
 			'../classes/Table.class.php',
 			'../classes/Row.class.php',
 			'../classes/Upload.class.php',

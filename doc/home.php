@@ -9,7 +9,7 @@
 		</ul>
 
 	<li>Link faster fasterPHP to your project :
-		<pre><code>require ('fasterPHP/faster.php');</code></pre>
+		<pre><code>require ('fasterPHP/fasterPHP.php');</code></pre>
 	</li>
 </ol>
 <h1>Usage</h1>
