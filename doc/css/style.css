@@ -1,0 +1,147 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html{
+	height: 100%;
+}
+body{
+	font-family: 'Tahoma','sans serif';
+	font-size:12px;
+	margin: 0;
+	padding: 0;
+	background-color: #EEE;
+	height: 100%;
+}
+
+
+h3{
+	margin:0;
+	padding: 0;
+}
+
+h2{
+	line-height: 1.0;
+	margin: 40px 10px 20px;
+	padding: 0;
+}
+
+pre code{
+	font-size: 13px;
+	font-family: Monaco, monospace;
+}
+
+/*content-doc*/
+#content-doc{
+	padding:5%;
+	height: 100%;
+	overflow-y: scroll;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+	#content-doc ul, #content-doc ol{
+		margin-bottom: 10px;
+		line-height: 1.5;
+	}
+#content-doc.sidebar-on{
+}
+
+	table{
+		border-collapse: collapse;
+		line-height: 1.0;
+		margin:0;
+		padding: 0;
+		font-size:12px;
+		background-color: #fff;
+		width: 100%;
+	}
+	table td{
+		border: 1px solid #DDD;
+		vertical-align: text-bottom;
+		padding: 5px;
+	}
+		td.doc{
+		width: 64%;
+	}
+	table.summary{
+		margin-bottom: 50px;
+	}
+
+	table.method{
+		margin-bottom: 30px;
+	}
+	td.type{
+		text-transform: uppercase;
+		width: 12%;
+	}
+
+/* sidebar */
+
+
+div#sidebar{
+	width: 20%;
+	float: left;
+	padding: 1%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 100%;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+	div#sidebar ul{
+		padding: 0;
+		margin: 0;
+		margin-bottom: 10px;
+	}
+		div#sidebar ul li{
+			padding: 5px 10px;
+		}
+
+		div#sidebar ul h4{
+			margin: 0;
+		}
+
+
+	div#sidebar #resize{
+		position: fixed;
+		left: 19.75%;
+		width: 1%;
+		height: 100%;
+	}
+
+	div#sidebar #resize:hover{
+		cursor: col-resize;
+	}
+
+	/* header */
+	div#sidebar header{
+
+	}
+		div#sidebar header #go-home{
+			font-size: 24px;
+			font-weight: bold;
+			display: block;
+		}
+
+		div#sidebar header #search-input{
+			width:65%;
+		}
+
+		div#sidebar header #search-btn{
+			width:30%;
+			float: right;
+		}
+
+	/* doc-nav */
+
+	div#sidebar #doc-nav{
+		width: 100%;
+		overflow: auto;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
