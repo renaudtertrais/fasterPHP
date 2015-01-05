@@ -17,7 +17,7 @@ Getting started
 
 2. Link faster fasterPHP to your project :
 
-```
+```php
 require ('fasterPHP/fasterPHP.php');
 ```
 	
@@ -32,7 +32,7 @@ The example is simple : we have a database (with connexion params in `config.php
 
 ### Database class
 
-```
+```php
 $db = new Database();
 
 $table = 'users';
@@ -70,7 +70,7 @@ $db->remove( $query );
 
 ### Table class
 
-```
+```php
 $users = new Table('users');
 
 // add :
@@ -105,7 +105,7 @@ $users->remove( $query );
 ```
 
 ### Row class
-```
+```php
 $users = new Table('users');
 
 // add :
@@ -146,7 +146,7 @@ Upload class
 
 This is a basic example. Imagine you've just submit a form with an `input[type=file][name=myFile]`
 
-```
+```php
 // type wanted : image (default)
 // size max : 5mo (default)
 
@@ -181,7 +181,7 @@ Mail class
 
 This is a basic example.
 
-```
+```php
 $mail = new Mail(array(
 	'to'	=> 'foo@bar.com',
 	'cc'	=> 'bar@foo.com, foo@foo.com',
